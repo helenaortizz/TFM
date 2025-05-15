@@ -3,9 +3,9 @@
 ## Presentación del Proyecto
 
 Este repositorio contiene el código y los recursos utilizados en el Trabajo de Fin de Máster (TFM) titulado:  
-**"Desarrollo de un modelo predictivo de parto pretérmino utilizando Machine Learning: Aplicación en obstetricia desde la perspectiva de la matrona"**  
+**"Desarrollo de un Modelo Predictivo de parto pretérmino utilizando Machine Learning: Aplicación en obstetricia desde la perspectiva de la Matrona"**  
 Autora: **Helena Ortiz Rivero**  
-Máster Universitario en Bioinformática y Bioestadística
+Máster Universitario en Bioinformática y Bioestadística (UOC)
 
 El objetivo es desarrollar un modelo de Machine Learning interpretable y aplicable en la práctica clínica para estimar el riesgo de parto pretérmino, empleando el conjunto de datos público **Natality Public Use File 2023** del CDC. Se ha creado también una **aplicación web interactiva** para su uso por matronas y profesionales sanitarios.
 
@@ -40,30 +40,6 @@ conda activate parto-pretérmino
 - `xgboost`
 - `gradio`
 - `joblib`
-
----
-
-## Uso de la aplicación
-
-Si deseas ejecutar la calculadora localmente:
-
-```bash
-python src/app.py
-```
-
-Esto lanzará una interfaz en el navegador donde podrás introducir datos clínicos y obtener una predicción del riesgo.
-
----
-
-## Reentrenamiento del modelo
-
-Si deseas entrenar de nuevo el modelo desde cero:
-
-```bash
-python src/model_training.py
-```
-
-El script generará un nuevo modelo y lo guardará en `models/final_model.joblib`.
 
 ---
 
